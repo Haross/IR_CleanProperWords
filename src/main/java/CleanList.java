@@ -10,9 +10,11 @@ import java.util.List;
 public class CleanList {
 
     HashMap<String, String> hmap;
+    HashMap<String, String> hmapApostrofe;
 
     public CleanList(){
         hmap = new HashMap<String, String>();
+        hmapApostrofe = new HashMap<String, String>();
     }
 
 
@@ -59,6 +61,45 @@ public class CleanList {
 
                 if(isValid(sortedKeys.get(i).toString())){
                     String value = hmap.get(sortedKeys.get(i));
+//                    writer.println(value+","+sortedKeys.get(i));
+//                    j++;
+                }else{
+                    hmap.remove(sortedKeys.get(i));
+                }
+
+            }
+
+            ArrayList<Integer> noApos = new ArrayList<>();
+            for (int i = 0; i < sortedKeys.size() ; i++) {
+
+                if(sortedKeys.get(i).toString().contains("\'")){
+                    String[] sp =  sortedKeys.get(i).toString().split("\'");
+                    for (int k = 0; k < sortedKeys.size() ; k++) {
+                        if(k != i && sp[0].equals(sortedKeys.get(k).toString()) && hmap.containsKey(sortedKeys.get(i)) && hmap.containsKey(sortedKeys.get(k))){
+
+
+                            String value = hmap.get(sortedKeys.get(i));
+
+                            Integer value1 = Integer.valueOf(value);
+                            Integer value2 = Integer.valueOf(hmap.get(sortedKeys.get(k)));
+
+                            if(sp[0].equals("dec")){
+                                System.out.println(value+ " - "+value2) ;
+                            }
+
+                            hmap.put(sortedKeys.get(k).toString(),value1+value2+"");
+                            noApos.add(i);
+                        }
+                    }
+                }
+
+            }
+
+            j=0;
+            for (int i = 0; i < sortedKeys.size() ; i++) {
+
+                if(!noApos.contains(i) && hmap.containsKey(sortedKeys.get(i))){
+                    String value = hmap.get(sortedKeys.get(i));
                     writer.println(value+","+sortedKeys.get(i));
                     j++;
                 }
@@ -73,8 +114,11 @@ public class CleanList {
 
     }
 
+    public HashMap<String, String> getHmap() {
+        return hmap;
+    }
+
     public boolean isValid(String word){
-//        String[] unproperWords = new String ["pm", "am","mg","hz","fps","pp","ug"];
         if(word.length() < 3)
             return false;
         if(NumberUtils.isCreatable(word.trim()) || NumberUtils.isCreatable(word.replaceAll(" ", "")))
@@ -83,7 +127,9 @@ public class CleanList {
             return false;
         if(word.split(";").length > 1)
             return false;
-        if(word.matches("[0-9]*x['0-9]*") || word.matches(" [0-9]*[a-z][a-z]?[0-9]?")|| word.matches(" ([0-9]+([\\_]*[a-z]*[\\']*[:]*)*)*") || word.matches("[a-z]+[0-9]+") || word.matches(" [\\_]+([\\_]*[0-9]*[:]*[a-z]*)*")|| word.matches("[ ]*[a-z]*([0-9]+[\\_]*[a-z]*)+") || word.matches("[ ]*[a-z]*([\\_]+[0-9]+[a-z]*)+"))
+        if(word.matches("[0-9]*x['0-9]*") || word.matches("([0-9]+[,|.]*)*") || word.matches(" [0-9]*[a-z][a-z]?[0-9]?")|| word.matches(" ([0-9]+([\\_]*[a-z]*[\\']*[:]*)*)*") || word.matches("[a-z]+[0-9]+") || word.matches(" [\\_]+([\\_]*[0-9]*[:]*[a-z]*)*")|| word.matches("[ ]*[a-z]*([0-9]+[\\_]*[a-z]*)+") || word.matches("[ ]*[a-z]*([\\_]+[0-9]+[a-z]*)+"))
+            return false;
+        if(word.contains("_"))
             return false;
         if(word.contains("â") ||  word.contains("º") || word.contains("ã") ||
                 word.contains("µ") || word.contains("î") ||  word.contains(":") ||

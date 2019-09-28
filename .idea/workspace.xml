@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4352fe27-9bb4-485d-ae87-d3533f5339ab" name="Default Changelist" comment="" />
+    <list default="true" id="4352fe27-9bb4-485d-ae87-d3533f5339ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cleanarxiv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cleanarxiv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cleanjavi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cleanjavi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cleanvicent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cleanvicent.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,13 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CleanList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+              <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,17 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/cleanarxiv.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-835553">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="144">
+              <caret line="704" column="9" selection-start-line="704" selection-start-column="9" selection-end-line="704" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/cleanvicent.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849270">
-              <caret line="56618" selection-start-line="56618" selection-end-line="56618" />
+            <state relative-caret-position="189">
+              <caret line="638" column="12" lean-forward="true" selection-start-line="638" selection-start-column="12" selection-end-line="638" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -64,15 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/cleanjavi.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606255">
-              <caret line="40417" selection-start-line="40417" selection-end-line="40417" />
+            <state relative-caret-position="137">
+              <caret line="8465" column="12" lean-forward="true" selection-start-line="8465" selection-start-column="12" selection-end-line="8465" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/arxiv.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -80,8 +90,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>;</find>
+      <find>dec</find>
       <find>clean</find>
+      <find>dec's</find>
+      <find>above's</find>
+      <find>admiral</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +112,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -145,6 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
@@ -201,17 +220,18 @@
       <updated>1569404440538</updated>
       <workItem from="1569404444093" duration="1807000" />
       <workItem from="1569494795078" duration="53000" />
-      <workItem from="1569676517901" duration="3366000" />
+      <workItem from="1569676517901" duration="5913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5226000" />
+    <option name="totallyTimeSpent" value="7773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -220,7 +240,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,27 +313,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/arxiv.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanjavi.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606255">
-          <caret line="40417" selection-start-line="40417" selection-end-line="40417" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanvicent.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849270">
-          <caret line="56618" selection-start-line="56618" selection-end-line="56618" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanarxiv.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835553">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
+        <state relative-caret-position="-15" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/javi.txt">
@@ -324,10 +325,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CleanList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <caret line="160" column="33" selection-start-line="160" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanjavi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="8465" column="12" lean-forward="true" selection-start-line="8465" selection-start-column="12" selection-end-line="8465" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanarxiv.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="704" column="9" selection-start-line="704" selection-start-column="9" selection-end-line="704" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cleanvicent.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="638" column="12" lean-forward="true" selection-start-line="638" selection-start-column="12" selection-end-line="638" selection-end-column="12" />
         </state>
       </provider>
     </entry>
